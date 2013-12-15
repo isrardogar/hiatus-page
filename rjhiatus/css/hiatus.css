@@ -1,0 +1,77 @@
+/* @group Hiatus page styles -------------------- */
+
+body.hiatus { background-color: white; text-align: center; }
+
+.hiatus .page-header { background-color: #ffffcc; }
+
+.hiatus h1 {
+  font-family: "rjf-alina";
+  font-weight: normal;
+  line-height: 165px;
+  font-size: 68px;
+  color: #ff7478;
+  margin: 0;
+  border-bottom: 2px dashed #d8d181;
+  padding-top: 20px; }
+
+.hiatus .logo {
+  width: 300px;
+  position: relative;
+  top: -25px;
+  vertical-align: middle; }
+
+.hiatus h2 {
+  font-family: "rjf-alina";
+  font-size: 36px;
+  color: #042f48; }
+
+.hiatus .links {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.hiatus .links li {
+  display: inline-block;
+  font-family: "rjf-duke";
+  font-weight: normal;
+  margin-left: 20px; }
+
+.hiatus .links li:first-child { margin-left: 0; }
+
+.hiatus .links li a {
+  display: inline-block;
+  background-color: #eff6fb;
+  color: #9aa6b1;
+  font-size: 44px;
+  padding: 0 20px 3px;
+  border-radius: 10px; }
+
+.hiatus .links li a:hover { opacity: .6; }
+
+/* @end hiatus page styles */
+
+@media screen and (max-width: 880px) {
+
+  .hiatus h1 {
+    line-height: .3;
+    padding: 30px 0 45px; }
+
+  .hiatus .logo {
+    display: block;
+    margin: -20px auto;
+    max-width: 80%; }
+
+  .hiatus h2 {
+    font-size: 32px;
+    line-height: 1;
+    margin: 20px 40px; }
+
+  .hiatus .links li { display: block; margin: 0; }
+
+  .hiatus .links li a {
+    display: block;
+    font-size: 30px;
+    margin: 10px 20px;
+  }
+
+}
