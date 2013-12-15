@@ -1,4 +1,4 @@
-Remote Jobs hiatus page
+[Remote Jobs hiatus page](http://remotejobs.io)
 ===========
 
 Code for temporary hiatus landing page.
